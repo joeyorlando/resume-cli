@@ -47,6 +47,13 @@ jobs:
 
       - name: Run semantic-release
         uses: cycjimmy/semantic-release-action@v2
+        with:
+          dry_run: true
+          branches: |
+            [
+              'master',
+              'setup-semantic-release'
+            ]
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
