@@ -27,10 +27,9 @@
     "commander": "^6.0.0",
     "dotenv": "^8.2.0",
     "jsonlint": "^1.6.3",
-    "jsonresume-theme-even": "^0.4.1",
+    "jsonresume-theme-even": "joeyorlando/jsonresume-theme-even",
     "node-static": "^0.7.11",
     "open": "^7.1.0",
-    "puppeteer": "^5.2.1",
     "read": "^1.0.7",
     "resume-schema": "^0.1.3",
     "superagent": "^6.0.0",
@@ -43,6 +42,7 @@
     "husky": "4.2.5",
     "lint-staged": "10.2.11",
     "mocha": "8.1.1",
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "puppeteer": "^5.2.1"
   }
 }
